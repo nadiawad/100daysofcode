@@ -7,6 +7,15 @@ else:
     print("Sorry :( You cannot play!")
 
 
+number = int(input("Enter a number to check if it is even or odd?"))
+
+if number % 2 == 0:
+    print("This is an even number.")
+else:
+    print("This is an odd number.")
+
+
+
 height = float(input("Enter your height in m: "))
 weight = float(input("Enter your weight in kg: "))
 
