@@ -3,6 +3,13 @@ height = int(input("Enter your height in cm: "))
 
 if height >= 120:
     print("You can play, YAY!")
+    age = int(input("How old are you?"))
+    if age < 12:
+        print("Your ticket is $4.")
+    elif age <= 18:
+        print("Your ticket is $6")
+    else:
+        print("Your ticket is $10.")
 else:
     print("Sorry :( You cannot play!")
 
@@ -13,6 +20,8 @@ if number % 2 == 0:
     print("This is an even number.")
 else:
     print("This is an odd number.")
+
+
 
 
 
